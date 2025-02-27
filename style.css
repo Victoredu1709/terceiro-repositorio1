@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root {
+--cor-principal: #00c9a7;
+--cor1: #845ec2;
+--cor2: #c4fcef;
+--cor3: #4d8076;
+--preto: #000000;
+--branco: #FFFFFF;
+}
+
+body {
+   font-size: 1rem;
+   font-family: 'Bungee'; /* o nome da sua fonte*/
+
+}
+
