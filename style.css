@@ -12,7 +12,6 @@
 body {
    font-size: 1rem;
    font-family: 'Bungee'; /* o nome da sua fonte*/
-
 }
 
 #contato{
@@ -25,11 +24,16 @@ body {
    background-color: var(--branco);
    padding: 2rem;
    border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0,0,0.1);
+   box-shadow: 0 0 10px rgb(0, 0, 0);
+   font-weight: bold;
+}
+
+.formulario button {
+   background-color: var(--cor3);
+   border: none;
    font-weight: bold;
 }
 
 .form-control {
    background-color: var(--cor2);
 }
-
