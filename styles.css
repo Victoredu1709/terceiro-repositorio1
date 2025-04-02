@@ -14,6 +14,46 @@ body {
    font-family: 'Bungee'; /* o nome da sua fonte*/
 }
 
+section {
+   padding bottom: 5rem;
+}
+
+.display-4 {
+   text-shadow: -5px 5px var(--cor-principal);
+}
+
+#exercicios {
+   position: relative;
+   padding-top: 5rem;
+   margin-top: 3rem;
+   background: var(--cor2);
+   background-size: 180px 180px; /* Ajuste o tamanha conforme necessario */
+}
+
+#exercicios .container{
+   display: flex;
+   align-items: center;
+justify-content: center;
+position: relative;
+z-index: 1; /* garante que os conteudo fica acima das imagens de background se houverem*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contato{
    background: var(--cor-principal);
    background-size: cover; 
