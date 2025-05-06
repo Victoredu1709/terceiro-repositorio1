@@ -1,9 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
-const botaoDeAcessibilidade = document.getElementById('botao-Acessibilidade')
-const opçõesDeAcessibilidade = document.getElementById('opções-Acessibilidade')
+document.addEventListener('DOMContentLoaded', function() {
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
-botaoDeAcessibilidade.addEventListtener('click', function(){
-botaoDeAcessibilidade.classList.toggle('rotação botão')
-opçõesDeAcessibilidade.classList.toggle('apressenta-lista')
-const botaoSelecionado =  botaoDeAcessibilidade
-}
+    botaoDeAcessibilidade.addEventListener('click', function (){
+        botaoDeAcessibilidade.classList.toggle('rotacao-botao')
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+
+        const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
+        botaoDeAcessibilidade.setAttribute('aria-expanded'), !botaoSelecionado
+    })
+
+    const aumentaFonteBotao = document.getElementById('aumentar-fonte')
+})
