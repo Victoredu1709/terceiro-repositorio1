@@ -26,6 +26,10 @@ header {
    text-shadow: -5px 5px var(--cor-principal);
 }
 
+.nav-imagem {
+    
+}
+
 .nav-link{
    color: var(--preto);
    font-wheight: 600;
@@ -58,6 +62,11 @@ header {
    height: 3em;
    align-content: center;
 }
+
+.display-4 {
+    text-shadow: -5px 5px var(--cor-principal);
+}
+
 #exercicios {
    position: relative;
    padding-top: 5rem;
@@ -67,8 +76,8 @@ header {
 }
 
 #exercicios .container{
-   display: flex;
-   align-items: center;
+display: flex;
+align-items: center;
 justify-content: center;
 position: relative;
 z-index: 1; /* garante que os conteudo fica acima das imagens de background se houverem*/
@@ -153,8 +162,4 @@ z-index: 1; /* garante que os conteudo fica acima das imagens de background se h
 
 .alto-contraste #galeria {
     background-color: var(--preto);
-}
-
-.alto-contraste .fundo-galeria {
-    background: ;
 }
